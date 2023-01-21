@@ -72,9 +72,9 @@ class Program {
         // WriteLine("2nd run: {0:N} s", second.Ticks / (float)RUNS / 1.0e6f);
     }
 
-    // void func1() {}
+    void func1() {}
 
-    // void func2() {}
+    void func2() {}
 
 }
 
