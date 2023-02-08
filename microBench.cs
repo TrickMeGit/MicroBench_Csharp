@@ -51,7 +51,6 @@ for (int run = 0; run < RUNS; run++) {
 clock.Stop();
 second = clock.Elapsed;
 
-
 // print result nanoseconds
 // WriteLine("1st run: {0:N} ns", first.Ticks / (float)RUNS * 1000.0f);
 // WriteLine("2nd run: {0:N} ns", second.Ticks / (float)RUNS * 1000.0f);
@@ -67,7 +66,6 @@ WriteLine("2nd run: {0:N} µs", second.Ticks / (float)RUNS);
 // print result seconds
 // WriteLine("1st run: {0:N} s", first.Ticks / (float)RUNS / 1.0e6f);
 // WriteLine("2nd run: {0:N} s", second.Ticks / (float)RUNS / 1.0e6f);
-
 
 void func1() {}      // demo function
 
