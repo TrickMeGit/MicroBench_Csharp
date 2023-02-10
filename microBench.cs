@@ -1,7 +1,6 @@
 ﻿using System.Diagnostics;
 using static System.Console;
 
-
 // set run repetitions
 const int RUNS = 65536;
 
