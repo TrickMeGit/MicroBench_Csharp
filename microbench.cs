@@ -4,16 +4,15 @@
 
 
 class MicroBench {
-
-    // set run repetitions:
-    const int RUNS = 65536;
-
     // add variables for bench:
 
     // int a = 0;
 
 
     static void Main() {
+        // set run repetitions:
+        const int RUNS = 65536;
+        
         Stopwatch clock = new Stopwatch();
         TimeSpan first;
         TimeSpan second;
