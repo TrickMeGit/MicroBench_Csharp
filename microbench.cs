@@ -16,6 +16,7 @@ class MicroBench {
         TimeSpan first;
         TimeSpan second;
         clock.Start();
+        clock.Reset();
 
         // add local variables for bench:
 
@@ -40,7 +41,8 @@ class MicroBench {
 
         a = 0;
 
-
+        
+        clock.Reset();
         // run garbage collector
         System.GC.Collect();
         System.GC.WaitForPendingFinalizers();
